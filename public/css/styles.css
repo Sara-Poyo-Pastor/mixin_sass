@@ -8,6 +8,23 @@ main #section-two {
   color: green;
 }
 
+main {
+  background-color: royalblue;
+  color: #eee;
+}
+
+header {
+  background-color: aqua;
+  font-size: 20px;
+}
+
+.ball {
+  border-radius: 50px;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+
 body {
   background-color: burlywood;
 }

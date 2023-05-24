@@ -1,0 +1,11 @@
+@import 'variables';
+
+main {
+    @include colorChange();
+}
+header {
+    @include h1Change();
+}
+.ball{
+    @include ball1(50px, red);
+}

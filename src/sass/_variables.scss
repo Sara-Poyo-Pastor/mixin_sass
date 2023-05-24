@@ -3,3 +3,19 @@ $titleColor: crimson;
 $TextColorOne: darkorchid;
 $TextColortwo: green;
 
+@mixin colorChange {
+    background-color: royalblue;
+    color: #eee;
+  }
+
+@mixin h1Change {
+    background-color: aqua;
+    font-size: 20px;
+}
+
+@mixin ball1($a, $b ) {
+    border-radius: $a;
+    background-color: $b;
+    height: 100px;
+    width: 100px;
+}
